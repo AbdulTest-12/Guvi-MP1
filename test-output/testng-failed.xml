@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.AddContactModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="createReport"/>
+          <include name="closeReport"/>
+          <include name="setup"/>
+          <include name="AddModule"/>
+        </methods>
+      </class> <!-- tests.AddContactModule -->
+      <class name="tests.SignUpModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="setup"/>
+          <include name="createReport"/>
+          <include name="SignUpTest"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- tests.SignUpModule -->
+      <class name="tests.DeleteContactModule">
+        <methods>
+          <include name="DeleteContact"/>
+          <include name="testDeatils"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="createReport"/>
+          <include name="closeReport"/>
+          <include name="setup"/>
+          <include name="DeleteContactAlert"/>
+        </methods>
+      </class> <!-- tests.DeleteContactModule -->
+      <class name="tests.EditContactDetailsModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="VerifiyingCancelEdit"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="createReport"/>
+          <include name="testEditContact"/>
+          <include name="closeReport"/>
+          <include name="EditingExsitingContact"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.EditContactDetailsModule -->
+      <class name="tests.NavigationModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="setup"/>
+          <include name="FontConsistency"/>
+          <include name="createReport"/>
+          <include name="ActionButtonsVisibility"/>
+          <include name="EditContactNavTest"/>
+          <include name="closeReport"/>
+          <include name="NavigationTest"/>
+          <include name="getPasswordFieldType"/>
+          <include name="AddContactNavTest"/>
+        </methods>
+      </class> <!-- tests.NavigationModule -->
+      <class name="tests.LoginModule">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="createReport"/>
+          <include name="closeReport"/>
+          <include name="setup"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- tests.LoginModule -->
+      <class name="tests.ResponsiveTest">
+        <methods>
+          <include name="testDeatils"/>
+          <include name="testNoHorizontalScrollOnMobile"/>
+          <include name="browserLaunchAndUrlLoad"/>
+          <include name="createReport"/>
+          <include name="testNoHorizontalScrollOnTablet"/>
+          <include name="closeReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ResponsiveTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
