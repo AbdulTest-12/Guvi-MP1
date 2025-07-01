@@ -45,6 +45,12 @@ public class ProjectSpecificationMethod extends Utility{
 		
 		LaunchBrowserandLoadUrl(browser,url);
 	}
+	
+//	 @AfterMethod
+//	 public void CloseBrowser() {
+//	 		
+//	 		CloseBrowser();
+//	 	}
 
 
 	@DataProvider(name ="readData")
@@ -53,11 +59,7 @@ public class ProjectSpecificationMethod extends Utility{
 		return readExcel(sheetname);
 	}
 
-	 @AfterMethod
-	 public void CloseBrowser() {
-	 		
-	 		CloseBrowser();
-	 	}
+
 	@AfterSuite
 	public void closeReport() {
 

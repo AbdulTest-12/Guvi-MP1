@@ -54,8 +54,8 @@
                 <version>3.2.5</version>
                 <configuration>
                 <suiteXmlFiles>
-					<suiteXmlFile>testngseq.xml</suiteXmlFile>
-					<!-- <suiteXmlFile>testngpar.xml</suiteXmlFile> -->
+					<suiteXmlFile>testngsql.xml</suiteXmlFile>
+					<suiteXmlFile>testngpar.xml</suiteXmlFile> 
                 </suiteXmlFiles>
                </configuration>
             </plugin>

@@ -23,7 +23,7 @@ public class EditContactDetailsModule extends ProjectSpecificationMethod {
 		testName = "Edit Contact";
 		testDescription = "Testing the edit contact  functionality of the application with valid and invalid details";
 		testAuthor ="Abdul Nazeer";
-		testCategory = "Smoke Testing";
+		testCategory = "Sanity Testing";
 
 	}
 
