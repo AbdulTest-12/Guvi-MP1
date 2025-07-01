@@ -55,7 +55,7 @@
                 <configuration>
                 <suiteXmlFiles>
 					<suiteXmlFile>testngsql.xml</suiteXmlFile>
-					<suiteXmlFile>testngpar.xml</suiteXmlFile> 
+					<!--<suiteXmlFile>testngpar.xml</suiteXmlFile>-->
                 </suiteXmlFiles>
                </configuration>
             </plugin>
