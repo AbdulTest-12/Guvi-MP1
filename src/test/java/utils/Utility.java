@@ -95,7 +95,7 @@ public class Utility {
 		return dataList.toArray(new String[0][columnCount]);
 	}
 
-	public static  String screenShot(String name) throws IOException {
+	public static String screenShot(String name) throws IOException {
 
 		String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 		String path="C:\\Users\\Vaseera\\eclipse-workspace\\MiniProject-1\\src\\test\\resources\\testoutputreport\\snaps\\"+name+timestamp+".png";

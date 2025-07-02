@@ -1,0 +1,16 @@
+pages\AddContactPage.class
+pages\HomePage.class
+tests\DeleteContactModule.class
+tests\ResponsiveTest.class
+utils\Listeners.class
+pages\ContactDetailsPage.class
+tests\AddContactModule.class
+pages\ContactListPage.class
+utils\Utility.class
+pages\SignUpPage.class
+tests\LoginModule.class
+pages\EditContactDetailsPage.class
+tests\SignUpModule.class
+base\ProjectSpecificationMethod.class
+tests\EditContactDetailsModule.class
+tests\NavigationModule.class
